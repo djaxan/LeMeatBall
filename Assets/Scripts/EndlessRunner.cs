@@ -56,7 +56,7 @@ public class EndlessRunner : MonoBehaviour
     void HandleMovement()
     {
         // Move forward continuously
-        transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+        transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime * 31);
         
         // Smooth lane transition
         float currentX = transform.position.x;

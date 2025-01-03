@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public float moveSpeed = 5f;  // Speed of the player
-    public float laneWidth = 2f;  // Distance between lanes (left/right)
+    public float laneWidth = 100f;  // Distance between lanes (left/right)
     private Vector3 targetPosition;  // Target position to move to
 
     private void Start()
