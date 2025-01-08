@@ -54,6 +54,28 @@ public class EndlessRunner : MonoBehaviour
             {
                 audioSource.PlayOneShot(collectSound);
             }
+            else
+            {
+                Debug.Log("Audio source not found.");
+            }
         }
+
+        if (other.gameObject.name.Contains("Apple"))
+        {
+            // Destroy the lettuce
+            Destroy(other.gameObject);
+
+            // Play your sound
+            if (audioSource != null)
+            {
+                audioSource.PlayOneShot(collectSound);
+            }
+            else
+            {
+                Debug.Log("Audio source not found.");
+            }
+        }
+
+
     }
 }

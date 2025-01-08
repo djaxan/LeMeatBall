@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Obstacle
   - Lettuce
+  - Apple
   layers:
   - Default
   - TransparentFX
