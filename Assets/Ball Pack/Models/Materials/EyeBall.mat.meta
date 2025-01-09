@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 574a32f1fd43e0e498988286b3eeb64b
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 446
+  packageName: Ball Pack
+  packageVersion: 1.0
+  assetPath: Assets/Ball Pack/Models/Materials/EyeBall.mat
+  uploadId: 24549

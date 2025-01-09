@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 031501c1b2b84414d819f1b449251dd4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 446
+  packageName: Ball Pack
+  packageVersion: 1.0
+  assetPath: Assets/Ball Pack/Models/Materials/BuckyBall.mat
+  uploadId: 24549

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class EndlessRunner : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class EndlessRunner : MonoBehaviour
     public float forwardSpeed = 15f;
     public float leftLimit = -12f;
     public float rightLimit = 12f;
+
 
     public AudioClip collectSound;   // Reference to your existing sound
     private AudioSource audioSource;
@@ -47,7 +49,7 @@ public class EndlessRunner : MonoBehaviour
         if (other.gameObject.name.Contains("Lettuce"))
         {
             // Destroy the lettuce
-            Destroy(other.gameObject);
+            SceneManager.LoadScene("DeathMenu");
 
             // Play your sound
             if (audioSource != null)
@@ -63,7 +65,7 @@ public class EndlessRunner : MonoBehaviour
         if (other.gameObject.name.Contains("Apple"))
         {
             // Destroy the lettuce
-            Destroy(other.gameObject);
+            SceneManager.LoadScene("DeathMenu");
 
             // Play your sound
             if (audioSource != null)
